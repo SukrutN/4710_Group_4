@@ -3,63 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Authors Page</title>
+    <title>Project Main Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
         }
         .header {
             background-color: #f1f1f1;
             padding: 20px;
             text-align: center;
         }
-        .author-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
+        .nav-bar {
+            overflow: hidden;
+            background-color: #333;
+        }
+        .nav-bar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .nav-bar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
             padding: 20px;
         }
-        .author {
-            background-color: #eaeaea;
-            border: 1px solid #ccc;
-            padding: 15px;
-            border-radius: 8px;
-        }
-        .author h3 {
-            margin-top: 0;
+        .footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
     <div class="header">
-        <h1>Project Authors</h1>
-        <p>Meet the team behind the project</p>
+        <h1>Project Name</h1>
+        <p>Short description or tagline of the project.</p>
     </div>
 
-    <div class="author-container">
-        <div class="author">
-            <h3>Chinmay Deore</h3>
-            <p>Junior majoring in computer science at WSU. Interested in network and information security, aiming to build skills in cybersecurity and increase understanding in computer languages, cloud, networking, databases, and more.</p>
-        </div>
+    <div class="nav-bar">
+        <a href="index.html">Home</a>
+        <!-- Link to the authors page -->
+        <a href="authors.html">Authors</a>
+        <!-- Add other navigation links if needed -->
+    </div>
 
-        <div class="author">
-            <h3>Venkat Yenduri</h3>
-            <p>Junior computer science student at Wayne State University. Passionate about full-stack development and machine learning. Strong foundation in programming, algorithms, and data structures.</p>
-        </div>
+    <div class="content">
+        <h2>Project Progress</h2>
+        <p>The main page and the authors page have been successfully created. Visit the 'Authors' page to learn more about the team behind this project.</p>
+        <!-- Add more content about the project here -->
+    </div>
 
-        <div class="author">
-            <h3>Sukrut Nadigotti</h3>
-            <p>Bachelor of Science in Computer Science and Minor in Psychology at Wayne State University. Skilled in programming and data analysis. Experiences include STEM Teaching Assistant, Undergraduate Research Assistant, and software developer.</p>
-        </div>
-
-        <div class="author">
-            <h3>Pierre Tawfik</h3>
-            <p>Third-year computer science undergraduate at Wayne State University. Focused on programming, algorithms, and data structures. Aiming for a career as a full-stack developer.</p>
-        </div>
+    <div class="footer">
+        <p>Project Footer Information</p>
     </div>
 
 </body>
